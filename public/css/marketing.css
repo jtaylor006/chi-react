@@ -1,0 +1,38 @@
+body {
+    padding-left: 2.75%;
+    padding-right: 2.75%;
+    background: #fdfdfd;
+}
+
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color:#89ff00;
+    border-width: 5px;
+    width: 5%;
+        }
+
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.4em;
+    ;
+}
+
+p{
+    font-size: 1.25em;
+    line-height:23px;
+}
+
+li {
+    font-size: 1.25em;
+}
