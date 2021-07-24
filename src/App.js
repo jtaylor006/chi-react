@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 
+
 class App extends React.Component {
   render() {
     return (
@@ -10,7 +11,7 @@ class App extends React.Component {
           {/* Nav Bar */}
           <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a className="navbar-brand" href="#">
-              <img src="img/logo.png"></img>
+              <img src="images/logo.png"></img>
             </a>
             <button
               className="navbar-toggler"
@@ -80,8 +81,8 @@ class App extends React.Component {
           <div className="col-12 narrow text-center">
             <h1>Who We Are</h1>
             <div className="heading-underline"></div>
-
-            <img className="avi" src="img/solo.jpg" alt=""></img>
+            <div className="avi"><img src="images/solo.jpg"></img>
+            </div>
             <p>
               We are an app-integrated experience designed to allow coach-less
               training to advance their athletes to the next performance level.
@@ -103,7 +104,7 @@ class App extends React.Component {
               <div className="row text-center">
                 <div className="whyTab">
                   <div className="problem">
-                    <img className="pic fl" src="img/coach.jpg" alt=""></img>
+                    <img className="pic fl" src="images/coach.jpg" alt=""></img>
                     <h3>Problem</h3>
                     <p>
                       Coaches are required to orchestrate cardio drills for
@@ -115,7 +116,7 @@ class App extends React.Component {
                 </div>
                 <div className="whyTab">
                   <div className="solution">
-                    <img className="pic fr" src="img/agile.jpg" alt=""></img>
+                    <img className="pic fr" src="images/agile.jpg" alt=""></img>
                     <h3>Solution</h3>
                     <p>
                       Our machine allows coach-less cardio training for
@@ -269,7 +270,7 @@ class App extends React.Component {
           <footer>
             <div className="row justify-content-center">
               <div className="col-md-5 text-center">
-                <img src="img/logo.png"></img>
+                <img src="images/logo.png"></img>
                 <p>
                   If you have any questions, comments, or concerns feel free to
                   click the link below to send an email. If you would like to
